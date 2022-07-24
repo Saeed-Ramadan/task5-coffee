@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #888;
+    
+}
+
+ /*start of navbar*/
+.navbar     
+{
+    background-color: black;
+    color: white;
+    text-decoration: none ;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.navbar li a{
+    text-decoration: none ;
+    color: white;
+}
+ /*end of navbar*/
+
+ /*start of hero*/
+
+.hero {
+    background-image: url(../images/4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 30vh;
+    margin: 25px auto;
+    border-radius: 8px;
+}
+
+ /*start of hero*/
+
+ /*start of heading*/
+.heading{
+    text-align: center;
+}
+ /*end of heading*/
+
+/*start of products*/
+.products{
+    margin-top: 40px;
+}
+.products .pro1{
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+   
+    border-radius: 10px;
+}
+.products .pro1 h3{
+    margin-bottom: 10px;
+}
+.products .pro1 img{
+    width: 250px;
+    height: 170px;
+    border-radius: 5px;
+}
+.products .pro1 p{
+    margin-bottom: 10px;
+}
+.products .pro1 button{
+    padding: 7px;
+    border-radius: 6px;
+}
+/*end of products*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+    .products .pro1 img{
+        width: 120px;
+    }
+}
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .products .pro1 img{
+        width: 120px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .products .pro1 img{
+        width: 120px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .products .pro1 img{
+        width: 190px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .products .pro1 img{
+        width: 220px;
+    }
+}
+
+
+
+
+
+
+    
+
+
+ 
+
